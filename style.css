@@ -53,3 +53,9 @@ transform: scale(1.01);
   justify-content: center;
   gap: 10px;
 }
+input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-image: none !important;
+  background-color: white!important;
+  color: fieldtext !important;
+}
